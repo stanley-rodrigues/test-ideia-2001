@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Poppins:wght@400;500&family=Roboto+Flex:opsz,wght@8..144,400;8..144,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+}
+
+:root {
+    --sec-collor: #444242;
+    --pry-collor: #FA9401;
+}
+
+body {
+    background: var(--sec-collor);
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 0px 15px;
+}
+
+.container-header .language{
+    display: flex;
+    background: white;
+    padding: 12px 10px;
+    align-items: center;
+    border-radius: 50px;
+    width: 122px;
+    height: 34px;
+}
+
+.container-header .language p {
+    color: var(--sec-collor);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.container-header .language img.drop {
+    width: 10px;
+    height: 5px;
+}
+
+.container-header .language img#flagbrasil {
+    padding: 0px 10px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 135px auto;
+}
+
+.container .logo {
+    width: 240.52px;
+    height: 75px;
+    margin-bottom: 50px;
+}
+
+.container .buttons {
+    display: flex;
+    border: 1px solid var(--pry-collor);
+    border-radius: 50px;
+    width: 265px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+.container #link {
+    background-color: var(--sec-collor);
+}
+
+.container #link:hover {
+    background-color: var(--pry-collor);
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.container .buttons:hover {
+    background-color: var(--pry-collor);
+    cursor: pointer;
+}
+
+.container .buttons:first-child {
+    background-color: var(--pry-collor);
+}
+.container .buttons:first-child:hover {
+    background-color: var(--sec-collor);
+}
+
+.container .buttons .icons {
+   padding-right: 8px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: -80px;
+    
+}
+
+.footer .face {
+    padding: 0px 15px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 320px) {
+    body {
+            background: #FFB64E;
+            height: 100vh;
+            width: 100vw;
+        }
+
+    .container-header {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 15px 0px 15px;
+    }
+
+    .logo {
+            width: 140px;
+            margin-top: -100px;
+    }
+
+    .navbutton {
+        margin: -20px;
+        
+    }
+
+    .navbutton .buttons {
+        border: 1px solid white;
+        background-color: var(--sec-collor);
+        cursor: pointer;
+    }
+
+     .container #link:hover {
+            background-color: var(--pry-collor);
+            cursor: pointer;
+        }
+
+    .container .buttons:first-child {
+            border: 1px solid var(--sec-collor);
+            cursor: pointer;
+        }
+        
+    .container .buttons:first-child:hover {
+            background-color: var(--sec-collor);
+            border: 1px solid var(--pry-collor);
+            cursor: pointer;
+        }
+
+    .container #link {
+                    border: 1px solid white;
+        }
+
+
+    .footer {
+            display: flex;
+            justify-content: center;
+            margin: -80px;
+        }
+}
+
+
+@media screen and (min-width: 640px) {
+    
+    .navbutton {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 47px auto;
+    }
+
+    .logo {
+        width: 140px;
+        margin-top: -120px;
+    }
+
+    .footer {
+            display: none
+    
+        }
+}
+
+@media screen and (min-width: 768px) {
+    .navbutton {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 30vh;
+    }
+
+    .logo {
+        margin-top: 100px;
+
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        margin: -10px;
+    
+    }
+    
+    .footer .face {
+        padding: 0px 15px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .navbutton {
+            display: block;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .logo {
+            margin-top: 10px;
+    
+        }
+    
+        .footer {
+            display: flex;
+            justify-content: center;
+            
+    
+        }
+    
+        .footer .face {
+            padding: 0px 15px;
+        }
+}
