@@ -21,10 +21,7 @@ Criado ultilizando:<br>
 <br>
   <a href="https://www.linkedin.com/in/stanley-rodrigues/">Que tal me dar um feedback 😃</a>
   
-  ### Informações adicionais
-  Tomei a liberdade de ultilizar o icon de site sendo o da logo disponivel pois achei mais estético.<br><br>
-  <img  height="100" src="https://github.com/stanley-rodrigues/test-ideia-2001/blob/main/assets/compar.png?raw=true"/><br><br>
-  
+ 
   
 
   
